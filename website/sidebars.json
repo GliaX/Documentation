@@ -1,0 +1,32 @@
+{
+  "docs": {
+    "Getting started": [
+    	"getting-started/introduction", 
+    	"getting-started/setting-up-software", 
+    	"getting-started/getting-a-model", 
+    	"getting-started/slicing-your-first-print",
+    	"getting-started/starting-your-print"
+    ],
+    "Stethoscope": [
+    	"stethoscope/introduction",
+    	"stethoscope/getting-the-models",
+    	"stethoscope/print-settings",
+    	"stethoscope/manufacturing",
+    	"stethoscope/checking-quality"
+    ],
+    "Tourniquet": [
+    	"tourniquet/introduction",
+    	"tourniquet/getting-the-models",
+    	"tourniquet/print-settings",
+    	"tourniquet/manufacturing",
+    	"tourniquet/checking-quality"
+    	],
+    "Pulse Oximeter": [
+    	"pulse-ox/introduction",
+    	"pulse-ox/getting-the-models",
+    	"pulse-ox/print-settings",
+    	"pulse-ox/manufacturing",
+    	"pulse-ox/checking-quality"
+    	]
+  }
+}
