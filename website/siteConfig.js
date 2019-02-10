@@ -38,6 +38,9 @@ const siteConfig = {
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
+  // Add edit URL
+  editUrl: 'https://github.com/gliax/documentation/tree/master/docs/',
+
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
   ],
