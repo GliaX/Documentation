@@ -5,7 +5,8 @@
     	"getting-started/setting-up-software", 
     	"getting-started/getting-a-model", 
     	"getting-started/slicing-your-first-print",
-    	"getting-started/starting-your-print"
+    	"getting-started/starting-your-print",
+    	"getting-started/troubleshooting-prints"
     ],
     "Stethoscope": [
     	"stethoscope/introduction",
