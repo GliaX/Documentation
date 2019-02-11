@@ -13,16 +13,16 @@ Go ahead and grab a model that interests you from any of the repositories.
 * **Cons:** Originally owned by Makerbot and now Stratsys. Has a difficult relationship with the community
 
 ## YouMagine
-* **URL**: [https://youmagine.com/](https://youmagine.com/)
-* **Pros:**: Has a large amount of 3D models, and a community originally established around the European community of 3D printer users.
-* **Cons:**: None for now.
+* **URL** [https://youmagine.com/](https://youmagine.com/)
+* **Pros:** Has a large amount of 3D models, and a community originally established around the European community of 3D printer users.
+* **Cons:** None for now.
 
 ## MyMiniFactory
 * **URL**: [https://www.myminifactory.com/](https://www.myminifactory.com/)
-* **Pros:**: Some paid models that are high quality and not accessible otherwise
-* **Cons:**: More commercially focused
+* **Pros:** Some paid models that are high quality and not accessible otherwise
+* **Cons:** More commercially focused
 
 ## Yeggi
 * **URL**: [https://yeggi.com/](https://yeggi.com/)
-* **Pros:**: More of a 3D model search engine/index that gathers models from many of the online 3D model communities.
-* **Cons:**: A bit hard to find things and navigate around.
+* **Pros:** More of a 3D model search engine/index that gathers models from many of the online 3D model communities.
+* **Cons:** A bit hard to find things and navigate around.
