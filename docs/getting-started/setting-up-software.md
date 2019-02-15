@@ -28,6 +28,12 @@ Start by downloading the software from the site below:
 ## Start and configure Slic3rPE
 Once the software is installed, go ahead and start up Slic3rPE. In the configuration wizard, pick the profiles for the MK3, the MK2.5, and the SL1. The Glia Project uses Prusa [MK3s](https://www.prusa3d.com/original-prusa-i3-mk3/), an MK2.5, several MK3 clones that we built in-house and a [Wanhao Duplicator 7](http://www.wanhao3dprinter.com/Unboxin/ShowArticle.asp?ArticleID=81) that resembles the SL1.
 
+### Enable background processing
+Background processing will make your life easier and allow Slic3r to slice in the background as you make changes, speeding up the final export.
+
+* Go to Configuration -> Preferences
+* Select "Background processing"
+
 ### Download our Glia-specific profiles - coming soon
 This step is not operational yet and is coming soon. For now, simply use the default profiles.
 
