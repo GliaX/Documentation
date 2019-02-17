@@ -7,3 +7,6 @@ This is built using [Docusaurus](https://docusaurus.io).
  * [Install Docusaurus](https://docusaurus.io/docs/en/installation)
  * Run as development: `NODE_ENV=development npm run start`
  * When done, build: `NODE_ENV=development npm run build`
+
+# Deployment
+From the folder where you want the documents to live, execute: `svn checkout https://github.com/GliaX/Documentation/trunk/website/build/glia-docs .`
