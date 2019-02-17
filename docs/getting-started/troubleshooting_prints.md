@@ -3,5 +3,8 @@ id: troubleshooting-prints
 title: Troubleshooting prints
 ---
 
-This is a link to [another document.](doc3.md)  
-This is a link to an [external page.](http://www.example.com)
+## First layer adhesion problems
+
+## X and Y axis skips
+
+## Weird blobs and zits

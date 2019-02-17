@@ -3,5 +3,10 @@ id: starting-your-print
 title: Starting your print
 ---
 
-This is a link to [another document.](doc3.md)  
-This is a link to an [external page.](http://www.example.com)
+## Prepare the bed
+
+## Put your G Code on the SD Card
+
+## Insert the SD Card into the printer
+
+## Start the print
