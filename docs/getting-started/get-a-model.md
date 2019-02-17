@@ -1,6 +1,6 @@
 ---
-id: getting-a-model
-title: Getting a model to print
+id: get-a-model
+title: Get a model to print
 ---
 
 Slicers are a way to turn a 3D model into 2D "slices". You still have to start with a 3D model. In this short chapter, we will list some of the popular locations for getting models. We've copied some content directly from [Lulzbot's page on model repositories](https://www.lulzbot.com/content/3d-model-repositories).

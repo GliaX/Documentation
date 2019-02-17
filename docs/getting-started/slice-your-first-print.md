@@ -1,6 +1,6 @@
 ---
-id: slicing-your-first-print
-title: Slicing your first print
+id: slice-your-first-print
+title: Slice your first print
 ---
 ## Enter the Glia printer settings
 The default settings are good, but don't seem to work very well with the filament and printers that we use. Instead, change the following settings:

@@ -1,6 +1,6 @@
 ---
-id: troubleshooting-prints
-title: Troubleshooting prints
+id: troubleshoot-failures
+title: Troubleshoot failures
 ---
 
 ## First layer adhesion problems

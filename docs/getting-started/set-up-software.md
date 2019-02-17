@@ -1,6 +1,6 @@
 ---
-id: setting-up-software
-title: Setting up your software
+id: set-up-software
+title: Set up your software
 ---
 
 In this chapter, you will learn how to install an [open source slicer](https://slic3r.org/) and set it up. This guide is specific to Glia's equipment, but should be applicable in other situations too.

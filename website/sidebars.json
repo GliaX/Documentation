@@ -2,12 +2,12 @@
   "docs": {
     "Getting started": [
     	"getting-started/introduction", 
-    	"getting-started/setting-up-software", 
-    	"getting-started/getting-a-model", 
-    	"getting-started/slicing-your-first-print",
-    	"getting-started/starting-your-print",
-    	"getting-started/removing-your-print",
-    	"getting-started/troubleshooting-prints"
+    	"getting-started/set-up-software", 
+    	"getting-started/get-a-model", 
+    	"getting-started/slice-your-first-print",
+    	"getting-started/start-your-print",
+    	"getting-started/remove-your-print",
+    	"getting-started/troubleshoot-failures"
     ],
     "Stethoscope": [
     	"stethoscope/introduction",

@@ -1,6 +1,6 @@
 ---
-id: removing-your-print
-title: Removing your print
+id: remove-your-print
+title: Remove your print
 ---
 
 ## Let it cool

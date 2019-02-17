@@ -1,6 +1,6 @@
 ---
-id: starting-your-print
-title: Starting your print
+id: start-your-print
+title: Start your print
 ---
 
 ## Prepare the bed
