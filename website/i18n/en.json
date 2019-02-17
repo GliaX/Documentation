@@ -5,26 +5,26 @@
     "previous": "Previous",
     "tagline": "High-quality low-cost open-source medical devices",
     "docs": {
-      "getting-started/getting-a-model": {
-        "title": "Getting a model to print"
+      "getting-started/get-a-model": {
+        "title": "Get a model to print"
       },
       "getting-started/introduction": {
         "title": "Introduction"
       },
-      "getting-started/removing-your-print": {
-        "title": "Removing your print"
+      "getting-started/remove-your-print": {
+        "title": "Remove your print"
       },
-      "getting-started/setting-up-software": {
-        "title": "Setting up your software"
+      "getting-started/set-up-software": {
+        "title": "Set up your software"
       },
-      "getting-started/slicing-your-first-print": {
-        "title": "Slicing your first print"
+      "getting-started/slice-your-first-print": {
+        "title": "Slice your first print"
       },
-      "getting-started/starting-your-print": {
-        "title": "Starting your print"
+      "getting-started/start-your-print": {
+        "title": "Start your print"
       },
-      "getting-started/troubleshooting-prints": {
-        "title": "Troubleshooting prints"
+      "getting-started/troubleshoot-failures": {
+        "title": "Troubleshoot failures"
       },
       "pulse-ox/checking-quality": {
         "title": "Checking Quality"
