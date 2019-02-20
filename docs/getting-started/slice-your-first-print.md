@@ -31,6 +31,7 @@ To do this, select "Print Settings", "Support Material", and then check off "Gen
 Once you are happy, take a look at the preview. Make sure there are no sudden layers that appear and are printed in air, and that the print appears correct.
 
 ## Export the G Code
+First make sure the correct printer has been selected (MK2.5 or MK3)
 Export the G Code to the SD Card by selecting the "Export G-Code" button. Select the SD card's location to export to.
 
 ## Save the project for later
