@@ -8,7 +8,7 @@ In this chapter, you will learn how to install an [open source slicer](https://s
 ## Get the software
 For this guide, we will use the [Prusa Edition of Slic3r](https://www.prusa3d.com/slic3r-prusa-edition/), though [the regular Slic3r](https://slic3r.org) also works well and should be usable.
 
-Start by downloading the software from the site below:
+Start by downloading the software from the site below (scroll down to find the newest version of the software):
 * [https://github.com/prusa3d/Slic3r/releases](https://github.com/prusa3d/Slic3r/releases)
 
 ### GNU/Linux
@@ -20,6 +20,7 @@ Start by downloading the software from the site below:
 ### Mac OSX
 * Get the dmg file
 * Install the files inside it
+* If you get a message saying it is from an "unidentified developer", go to: settings > security > privacy > general and click "allow"
 
 ### Windows
 * Get the win64 zip (unless you know you need win32).
@@ -27,6 +28,11 @@ Start by downloading the software from the site below:
 
 ## Start and configure Slic3rPE
 Once the software is installed, go ahead and start up Slic3rPE. In the configuration wizard, pick the profiles for the MK3, the MK2.5, and the SL1. The Glia Project uses Prusa [MK3s](https://www.prusa3d.com/original-prusa-i3-mk3/), an MK2.5, several MK3 clones that we built in-house and a [Wanhao Duplicator 7](http://www.wanhao3dprinter.com/Unboxin/ShowArticle.asp?ArticleID=81) that resembles the SL1.
+
+* Select nozzle size 0.4mm for both MK3 and MK2.5
+* Under "custom printer profile" click next
+* Under "configuration assistant" check off both boxes (check for application updates, update built in presets automatically)
+* Click finish
 
 ### Enable background processing
 Background processing will make your life easier and allow Slic3r to slice in the background as you make changes, speeding up the final export.
