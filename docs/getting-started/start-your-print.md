@@ -16,6 +16,20 @@ Adhesion between the plastic on the spring steel sheet ([PEI](https://en.wikiped
 
 After cleaning with Isopropyl Alcohol, use a separating agent such as glass cleaner (commonly called Windex). Other separating agents include [PVA glue](https://en.wikipedia.org/wiki/Polyvinyl_acetate) such as most [glue sticks](https://www.amazon.ca/s?k=pva+glue+stick) and [liquid glue](https://www.amazon.ca/s?k=pva+glue).
 
+## Change the filament
+Preheat the printer (check the filament tags for temperature ranges)
+
+Select "unload filament", be prepared to pull filament out
+
+Pick filament colour/material of choice. Cut off ends if brittle (cut diagonally so the tip has a point)
+
+Select "load filament".
+*For multi‒material printer, pre‒load filament into hose. Select "load to nozzle" > "load filament 1" to load first hose
+
+Under "Is filament extruding correct colour?" select "no" 5 or 6 times
+
+
+
 ## Clean the nozzle
 Remove any remaining ooze from the nozzle. Careful that the nozzle might be hot.
 
