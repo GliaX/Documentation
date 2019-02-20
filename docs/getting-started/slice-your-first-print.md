@@ -32,6 +32,7 @@ Once you are happy, take a look at the preview. Make sure there are no sudden la
 
 ## Export the G Code
 First make sure the correct printer has been selected (MK2.5 or MK3)
+
 Export the G Code to the SD Card by selecting the "Export G-Code" button. Select the SD card's location to export to.
 
 ## Save the project for later
