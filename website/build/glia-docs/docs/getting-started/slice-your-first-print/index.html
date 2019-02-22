@@ -73,37 +73,45 @@
 <p>To do this, select &quot;Print Settings&quot;, &quot;Support Material&quot;, and then check off &quot;Generate support material&quot;.</p>
 <h2><a class="anchor" aria-hidden="true" id="preview-your-work"></a><a href="#preview-your-work" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preview your work</h2>
 <p>Once you are happy, take a look at the preview. Make sure there are no sudden layers that appear and are printed in air, and that the print appears correct.</p>
-<h2><a class="anchor" aria-hidden="true" id="set-our-printer-profile"></a><a href="#set-our-printer-profile" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Set our printer profile</h2>
-<p>In &quot;Printer settings&quot;, go to &quot;Custom G-Code&quot; and replace &quot;Start G-code&quot; with the following:</p>
-<p>M80 ; Turn printer power supply on
-M83  ; extruder relative mode
-M140 S[first_layer_bed_temperature] ; set bed temp
-M104 S[first_layer_temperature] ; set extruder temp
-M190 S[first_layer_bed_temperature] ; wait for bed temp
-M109 S[first_layer_temperature] ; wait for extruder temp
-; Retract filament to prevent oozing
-G92 E0 ; reset extruder location
-G1 F500 E-8 ; retract by -8
-G92 E0 ; reset again</p>
-<p>G28 ; home all without mesh bed level
-G29 ; Auto bed level
-;G29 P0; Wipe old mesh
-;G29 P1; mesh bed leveling
-;G29 P3 T; mesh bed leveling
-;G29 F 10.0; Fade height for correction at 10.0mm
-;G29 A; Activate Mesh bed leveling</p>
-<p>;M421 I0 J0 Q-0.2 ; Correct front left point
-;M421 I0 J1 Q-0.2 ; Correct middle left point
-;M421 I0 J2 Q-0.2 ; Correct back left point</p>
-<p>M421 I2 J0 Q+0.2 ; Correct front right point
-M421 I2 J1 Q+0.2 ; Correct back right point
-M421 I2 J2 Q+0.2 ; Correct back right point
-G1 X0 Y-1 Z0.2 F4000.0 ; go outside print area
-G1 X60.0 E9.0  F1000.0 ; intro line
-G1 X100.0 E12.5  F1000.0 ; intro line</p>
+<h2><a class="anchor" aria-hidden="true" id="set-the-glia-printer-profile"></a><a href="#set-the-glia-printer-profile" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Set the Glia printer profile</h2>
+<ul>
+<li>Enable &quot;Expert mode&quot;</li>
+<li>In &quot;Printer settings&quot;, go to &quot;Custom G-Code&quot;</li>
+<li>Replace the contents of &quot;Start G-code&quot; with the following:</li>
+</ul>
+<pre><code class="hljs"><span class="hljs-attribute">M80</span> ; <span class="hljs-attribute">Turn</span> printer power supply <span class="hljs-literal">on</span>
+M83  ; <span class="hljs-attribute">extruder</span> relative mode
+M140 S[first_layer_bed_temperature] ; <span class="hljs-attribute">set</span> bed temp
+M104 S[first_layer_temperature] ; <span class="hljs-attribute">set</span> extruder temp
+M190 S[first_layer_bed_temperature] ; <span class="hljs-attribute">wait</span> for bed temp
+M109 S[first_layer_temperature] ; <span class="hljs-attribute">wait</span> for extruder temp
+; <span class="hljs-attribute">Retract</span> filament to prevent oozing
+G92 E0 ; <span class="hljs-attribute">reset</span> extruder location
+G1 F500 E-<span class="hljs-number">8</span> ; <span class="hljs-attribute">retract</span> by -<span class="hljs-number">8</span>
+G92 E0 ; <span class="hljs-attribute">reset</span> again
+
+G28 ; <span class="hljs-attribute">home</span> all without mesh bed level
+G29 ; <span class="hljs-attribute">Auto</span> bed level
+;<span class="hljs-attribute">G29</span> P0; <span class="hljs-attribute">Wipe</span> old mesh
+;<span class="hljs-attribute">G29</span> P1; <span class="hljs-attribute">mesh</span> bed leveling
+;<span class="hljs-attribute">G29</span> P3 T; <span class="hljs-attribute">mesh</span> bed leveling
+;<span class="hljs-attribute">G29</span> F <span class="hljs-number">10</span>.<span class="hljs-number">0</span>; <span class="hljs-attribute">Fade</span> height for correction at <span class="hljs-number">10</span>.<span class="hljs-number">0mm</span>
+;<span class="hljs-attribute">G29</span> A; <span class="hljs-attribute">Activate</span> Mesh bed leveling
+
+;<span class="hljs-attribute">M421</span> I0 J0 Q-<span class="hljs-number">0</span>.<span class="hljs-number">2</span> ; <span class="hljs-attribute">Correct</span> front left point
+;<span class="hljs-attribute">M421</span> I0 J1 Q-<span class="hljs-number">0</span>.<span class="hljs-number">2</span> ; <span class="hljs-attribute">Correct</span> middle left point
+;<span class="hljs-attribute">M421</span> I0 J2 Q-<span class="hljs-number">0</span>.<span class="hljs-number">2</span> ; <span class="hljs-attribute">Correct</span> back left point
+
+M421 I2 J0 Q+<span class="hljs-number">0</span>.<span class="hljs-number">2</span> ; <span class="hljs-attribute">Correct</span> front right point
+M421 I2 J1 Q+<span class="hljs-number">0</span>.<span class="hljs-number">2</span> ; <span class="hljs-attribute">Correct</span> back right point
+M421 I2 J2 Q+<span class="hljs-number">0</span>.<span class="hljs-number">2</span> ; <span class="hljs-attribute">Correct</span> back right point
+G1 X0 Y-<span class="hljs-number">1</span> Z0.<span class="hljs-number">2</span> F4000.<span class="hljs-number">0</span> ; <span class="hljs-attribute">go</span> outside print area
+G1 X60.<span class="hljs-number">0</span> E9.<span class="hljs-number">0</span>  F1000.<span class="hljs-number">0</span> ; <span class="hljs-attribute">intro</span> line
+G1 X100.<span class="hljs-number">0</span> E12.<span class="hljs-number">5</span>  F1000.<span class="hljs-number">0</span> ; <span class="hljs-attribute">intro</span> line
+</code></pre>
 <h2><a class="anchor" aria-hidden="true" id="export-the-g-code"></a><a href="#export-the-g-code" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Export the G Code</h2>
-<p>First make sure the correct printer has been selected (MK2.5 or MK3)</p>
+<p>First make sure the correct printer has been selected (MK2.5, MK3, or the custom as above). Also select 0.20 for your layer height.</p>
 <p>Export the G Code to the SD Card by selecting the &quot;Export G-Code&quot; button. Select the SD card's location to export to.</p>
 <h2><a class="anchor" aria-hidden="true" id="save-the-project-for-later"></a><a href="#save-the-project-for-later" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Save the project for later</h2>
 <p>In case you want to come back to this project later, go ahead and save it to your hard drive. Do this with &quot;File&quot; &gt; &quot;Save Project&quot;.</p>
-</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2/22/2019</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/getting-started/get-a-model"><span class="arrow-prev">← </span><span>Get a model to print</span></a><a class="docs-next button" href="/docs/getting-started/start-your-print"><span>Start your print</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#enter-the-glia-printer-settings">Enter the Glia printer settings</a><ul class="toc-headings"><li><a href="#filament-settings">Filament settings</a></li></ul></li><li><a href="#import-your-model">Import your model</a></li><li><a href="#scale-your-model">Scale your model</a></li><li><a href="#orient-your-model">Orient your model</a></li><li><a href="#does-your-model-need-supports">Does your model need supports?</a></li><li><a href="#preview-your-work">Preview your work</a></li><li><a href="#set-our-printer-profile">Set our printer profile</a></li><li><a href="#export-the-g-code">Export the G Code</a></li><li><a href="#save-the-project-for-later">Save the project for later</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><a href="https://github.com/GliaX">GitHub</a><a class="github-button" href="https://github.com/GliaX" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</section></footer></div><script src="http://localhost:undefined/livereload.js"></script></body></html>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2/22/2019</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/getting-started/get-a-model"><span class="arrow-prev">← </span><span>Get a model to print</span></a><a class="docs-next button" href="/docs/getting-started/start-your-print"><span>Start your print</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#enter-the-glia-printer-settings">Enter the Glia printer settings</a><ul class="toc-headings"><li><a href="#filament-settings">Filament settings</a></li></ul></li><li><a href="#import-your-model">Import your model</a></li><li><a href="#scale-your-model">Scale your model</a></li><li><a href="#orient-your-model">Orient your model</a></li><li><a href="#does-your-model-need-supports">Does your model need supports?</a></li><li><a href="#preview-your-work">Preview your work</a></li><li><a href="#set-the-glia-printer-profile">Set the Glia printer profile</a></li><li><a href="#export-the-g-code">Export the G Code</a></li><li><a href="#save-the-project-for-later">Save the project for later</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><a href="https://github.com/GliaX">GitHub</a><a class="github-button" href="https://github.com/GliaX" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</section></footer></div><script src="http://localhost:undefined/livereload.js"></script></body></html>
