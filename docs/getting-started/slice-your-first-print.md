@@ -30,9 +30,12 @@ To do this, select "Print Settings", "Support Material", and then check off "Gen
 ## Preview your work
 Once you are happy, take a look at the preview. Make sure there are no sudden layers that appear and are printed in air, and that the print appears correct.
 
-## Set our printer profile
-In "Printer settings", go to "Custom G-Code" and replace "Start G-code" with the following:
+## Set the Glia printer profile
+* Enable "Expert mode"
+* In "Printer settings", go to "Custom G-Code"
+* Replace the contents of "Start G-code" with the following:
 
+```
 M80 ; Turn printer power supply on
 M83  ; extruder relative mode
 M140 S[first_layer_bed_temperature] ; set bed temp
@@ -62,9 +65,10 @@ M421 I2 J2 Q+0.2 ; Correct back right point
 G1 X0 Y-1 Z0.2 F4000.0 ; go outside print area
 G1 X60.0 E9.0  F1000.0 ; intro line
 G1 X100.0 E12.5  F1000.0 ; intro line
+```
 
 ## Export the G Code
-First make sure the correct printer has been selected (MK2.5 or MK3)
+First make sure the correct printer has been selected (MK2.5, MK3, or the custom as above). Also select 0.20 for your layer height.
 
 Export the G Code to the SD Card by selecting the "Export G-Code" button. Select the SD card's location to export to.
 
