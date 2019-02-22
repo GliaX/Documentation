@@ -30,6 +30,39 @@ To do this, select "Print Settings", "Support Material", and then check off "Gen
 ## Preview your work
 Once you are happy, take a look at the preview. Make sure there are no sudden layers that appear and are printed in air, and that the print appears correct.
 
+## Set our printer profile
+In "Printer settings", go to "Custom G-Code" and replace "Start G-code" with the following:
+
+M80 ; Turn printer power supply on
+M83  ; extruder relative mode
+M140 S[first_layer_bed_temperature] ; set bed temp
+M104 S[first_layer_temperature] ; set extruder temp
+M190 S[first_layer_bed_temperature] ; wait for bed temp
+M109 S[first_layer_temperature] ; wait for extruder temp
+; Retract filament to prevent oozing
+G92 E0 ; reset extruder location
+G1 F500 E-8 ; retract by -8
+G92 E0 ; reset again
+
+G28 ; home all without mesh bed level
+G29 ; Auto bed level
+;G29 P0; Wipe old mesh
+;G29 P1; mesh bed leveling
+;G29 P3 T; mesh bed leveling
+;G29 F 10.0; Fade height for correction at 10.0mm
+;G29 A; Activate Mesh bed leveling
+
+;M421 I0 J0 Q-0.2 ; Correct front left point
+;M421 I0 J1 Q-0.2 ; Correct middle left point
+;M421 I0 J2 Q-0.2 ; Correct back left point
+
+M421 I2 J0 Q+0.2 ; Correct front right point
+M421 I2 J1 Q+0.2 ; Correct back right point
+M421 I2 J2 Q+0.2 ; Correct back right point
+G1 X0 Y-1 Z0.2 F4000.0 ; go outside print area
+G1 X60.0 E9.0  F1000.0 ; intro line
+G1 X100.0 E12.5  F1000.0 ; intro line
+
 ## Export the G Code
 First make sure the correct printer has been selected (MK2.5 or MK3)
 
