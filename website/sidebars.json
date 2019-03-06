@@ -29,6 +29,11 @@
     	"pulse-ox/print-settings",
     	"pulse-ox/manufacturing",
     	"pulse-ox/checking-quality"
-    	]
+   	],
+    "Manufacturing": [
+    	"manufacturing/introduction",
+    	"manufacturing/guide-to-octoprint",
+    	"manufacturing/change-filament-spools"
+	]
   }
 }

@@ -26,6 +26,15 @@
       "getting-started/troubleshoot-failures": {
         "title": "Troubleshoot failures"
       },
+      "manufacturing/change-filament-spools": {
+        "title": "Change Filament Spools"
+      },
+      "manufacturing/guide-to-octoprint": {
+        "title": "Guide to Octoprint"
+      },
+      "manufacturing/introduction": {
+        "title": "Introduction"
+      },
       "pulse-ox/checking-quality": {
         "title": "Checking Quality"
       },
@@ -77,7 +86,8 @@
       "Getting started": "Getting started",
       "Stethoscope": "Stethoscope",
       "Tourniquet": "Tourniquet",
-      "Pulse Oximeter": "Pulse Oximeter"
+      "Pulse Oximeter": "Pulse Oximeter",
+      "Manufacturing": "Manufacturing"
     }
   },
   "pages-strings": {
