@@ -35,6 +35,12 @@
       "manufacturing/introduction": {
         "title": "Introduction"
       },
+      "printer-workshops/bread": {
+        "title": "Making bread"
+      },
+      "printer-workshops/introduction": {
+        "title": "Introduction"
+      },
       "pulse-ox/checking-quality": {
         "title": "Checking Quality"
       },
@@ -87,7 +93,8 @@
       "Stethoscope": "Stethoscope",
       "Tourniquet": "Tourniquet",
       "Pulse Oximeter": "Pulse Oximeter",
-      "Manufacturing": "Manufacturing"
+      "Manufacturing": "Manufacturing",
+      "Printer Workshops": "Printer Workshops"
     }
   },
   "pages-strings": {
