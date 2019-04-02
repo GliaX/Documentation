@@ -38,4 +38,10 @@ If you have to enter the settings from scratch, use the following:
 * Total Time: 3:15
 
 ## Remove the bread
-Turn the baking pan over and shake out the loaf. If the bread is difficult to remove, turn th ebaking pan on its side and wiggle or rotate the wing nuts at the bottom of the baking pan a few times.
+Turn the baking pan over and shake out the loaf. If the bread is difficult to remove, turn the baking pan on its side and wiggle or rotate the wing nuts at the bottom of the baking pan a few times.
+
+## Cool the bread
+Put the bread on a cooling rack in the oven for 15-30 minutes until cool.
+
+## Clean-up
+Simply soak the pan in water for 10-15 minutes, and then use your hand to rub off any debris in the pan and on the paddles. Leave to dry for the next use.
