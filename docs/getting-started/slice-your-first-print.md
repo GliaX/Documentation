@@ -5,10 +5,16 @@ title: Slice your first print
 ## Enter the Glia printer settings
 The default settings are good, but don't seem to work very well with the filament and printers that we use. Instead, change the following settings:
 
-### Filament settings
+### Filament settings - PLA
 * First layer temperature: 230
 * First layer bed: 70
 * Other layers bed: 70
+
+### Filament settings - PETG
+* First layer nozzle temperature: 265
+* Other layers nozzle temperature: 240
+* First layer bed: 90
+* Other layers bed: 80
 
 ## Import your model
 * Click the "Add..." button in the top icon toolbar
