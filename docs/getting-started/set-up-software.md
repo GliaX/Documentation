@@ -30,7 +30,7 @@ Start by downloading the software from the site below (scroll down to find the n
 Once the software is installed, go ahead and start up Slic3rPE. In the configuration wizard, pick the profiles for the MK3, the MK2.5, and the SL1. The Glia Project uses Prusa [MK3s](https://www.prusa3d.com/original-prusa-i3-mk3/), an MK2.5, several MK3 clones that we built in-house and a [Wanhao Duplicator 7](http://www.wanhao3dprinter.com/Unboxin/ShowArticle.asp?ArticleID=81) that resembles the SL1.
 
 * Select nozzle size 0.4mm for both MK3 and MK2.5
-* Under "custom printer profile" click next
+* Under "custom printer profile" click next (do not check box)
 * Under "configuration assistant" check off both boxes (check for application updates, update built in presets automatically)
 * Click finish
 
