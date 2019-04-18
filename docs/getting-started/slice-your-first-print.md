@@ -11,7 +11,7 @@ The default settings are good, but don't seem to work very well with the filamen
 * Other layers bed: 70
 
 ### Filament settings - PETG
-* First layer nozzle temperature: 265
+* First layer nozzle temperature: 270
 * Other layers nozzle temperature: 240
 * First layer bed: 90
 * Other layers bed: 80
