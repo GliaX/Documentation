@@ -44,6 +44,30 @@
       "pulse-ox/checking-quality": {
         "title": "Checking Quality"
       },
+      "pulse-ox/clinical-trial/abg-analysis": {
+        "title": "ABG analysis"
+      },
+      "pulse-ox/clinical-trial/abg-draw": {
+        "title": "ABG Draw"
+      },
+      "pulse-ox/clinical-trial/data-analysis": {
+        "title": "Data Analysis"
+      },
+      "pulse-ox/clinical-trial/data-collection": {
+        "title": "Data Collection"
+      },
+      "pulse-ox/clinical-trial/participant-prep": {
+        "title": "Participant Preparation"
+      },
+      "pulse-ox/clinical-trial/recording": {
+        "title": "Recording"
+      },
+      "pulse-ox/clinical-trial/respiract-operation": {
+        "title": "Respiract Operation"
+      },
+      "pulse-ox/clinical-trial/supervisor": {
+        "title": "Supervisor"
+      },
       "pulse-ox/getting-the-models": {
         "title": "Getting the models"
       },

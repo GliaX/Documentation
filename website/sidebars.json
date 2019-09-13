@@ -28,7 +28,15 @@
     	"pulse-ox/getting-the-models",
     	"pulse-ox/print-settings",
     	"pulse-ox/manufacturing",
-    	"pulse-ox/checking-quality"
+    	"pulse-ox/checking-quality",
+    	"pulse-ox/clinical-trial/participant-prep",
+    	"pulse-ox/clinical-trial/recording",
+    	"pulse-ox/clinical-trial/abg-draw",
+    	"pulse-ox/clinical-trial/abg-analysis",
+    	"pulse-ox/clinical-trial/respiract-operation",
+    	"pulse-ox/clinical-trial/supervisor",
+    	"pulse-ox/clinical-trial/data-collection",
+    	"pulse-ox/clinical-trial/data-analysis"
    	],
     "Manufacturing": [
     	"manufacturing/introduction",
