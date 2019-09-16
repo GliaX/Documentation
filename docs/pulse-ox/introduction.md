@@ -1,10 +1,12 @@
 ---
-id: introduction
+id: Introduction
 title: Introduction
 ---
 
-Test22
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+Welcome!
+Thank you for being part of our pulse ox study! 
+
+Please read through the following roles in advance to prepare for what will happen the day of the study.
 
 ## Lorem
 
