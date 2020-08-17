@@ -5,16 +5,16 @@
     "previous": "Previous",
     "tagline": "High-quality low-cost open-source medical devices",
     "docs": {
-      "getting-started/opensource": {
+      "getting-started/open-source": {
         "title": "What is Free/Libre and Open Source medicine?"
       },
-      "getting-started/projectphases": {
-        "title": "Project Phases"
+      "getting-started/project-phases": {
+        "title": "What does a Glia project look like?"
       },
       "getting-started/welcome": {
         "title": "Welcome to Glia!"
       },
-      "getting-started/whoarewe": {
+      "getting-started/who-are-we": {
         "title": "Who are We?"
       },
       "manufacturing/change-filament-spools": {
