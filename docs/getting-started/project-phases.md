@@ -1,5 +1,5 @@
 ---
-id: projectphases
+id: project-phases
 title: Project Phases
 ---
 

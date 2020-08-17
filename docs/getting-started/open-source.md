@@ -1,5 +1,5 @@
 ---
-id: opensource
+id: open-source
 title: What is Free/Libre and Open Source medicine?
 ---
 

@@ -5,26 +5,17 @@
     "previous": "Previous",
     "tagline": "High-quality low-cost open-source medical devices",
     "docs": {
-      "getting-started/get-a-model": {
-        "title": "Get a model to print"
+      "getting-started/opensource": {
+        "title": "What is Free/Libre and Open Source medicine?"
       },
-      "getting-started/remove-your-print": {
-        "title": "Remove your print"
-      },
-      "getting-started/set-up-software": {
-        "title": "Set up your software"
-      },
-      "getting-started/slice-your-first-print": {
-        "title": "Slice your first print"
-      },
-      "getting-started/start-your-print": {
-        "title": "Start your print"
-      },
-      "getting-started/troubleshoot-failures": {
-        "title": "Troubleshoot failures"
+      "getting-started/projectphases": {
+        "title": "Project Phases"
       },
       "getting-started/welcome": {
         "title": "Welcome to Glia!"
+      },
+      "getting-started/whoarewe": {
+        "title": "Who are We?"
       },
       "manufacturing/change-filament-spools": {
         "title": "Change Filament Spools"

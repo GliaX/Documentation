@@ -1,5 +1,5 @@
 ---
-id: whoarewe
+id: who-are-we
 title: Who are We?
 ---
 
