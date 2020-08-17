@@ -5,6 +5,7 @@ This is built using [Docusaurus](https://docusaurus.io).
 
 # Development
  * Clone folder from repo
+ * Enter correct folder: `cd website`
  * Install dependencies: `npm install`
  * Run as development: `NODE_ENV=development npm run start`
  * When done, build: `NODE_ENV=development npm run build`
