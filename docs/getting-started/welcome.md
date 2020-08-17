@@ -5,7 +5,7 @@ title: Welcome to Glia!
 
 You are now a part of an international team that is actively designing, testing, and manufacturing medical hardware. Our medical hardware is open-source and shared freely online. Glia collaborates with APIL Toronto, Mosaic Medical London and Tashkeel Gaza. 
 
-“We believe in creating and sharing hardware that is easily accessible and can be manufactured in low-resource settings. Hundreds of our devices are already in use around the world.” - Glia.org 
+We believe in creating and sharing hardware that is easily accessible and can be manufactured in low-resource settings. Hundreds of our devices are already in use around the world. 
 
 With your contribution, we can create incredible things! 
 Thank you for joining the team!

@@ -1,13 +1,10 @@
 {
   "docs": {
     "Getting started": [
-    	"getting-started/introduction", 
-    	"getting-started/set-up-software", 
-    	"getting-started/get-a-model", 
-    	"getting-started/slice-your-first-print",
-    	"getting-started/start-your-print",
-    	"getting-started/remove-your-print",
-    	"getting-started/troubleshoot-failures"
+    	"getting-started/welcome", 
+    	"getting-started/who-are-we", 
+    	"getting-started/open-source", 
+    	"getting-started/project-phases"
     ],
     "Stethoscope": [
     	"stethoscope/introduction",
