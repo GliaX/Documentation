@@ -1,5 +1,5 @@
 ---
-id: welcome
+id: introduction
 title: Welcome to Glia!
 ---
 
