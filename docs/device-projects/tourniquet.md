@@ -3,6 +3,8 @@ id: tourniquet
 title: Tourniquet
 ---
 
+![tourniquet](assets/media/tourniquet.jpg)
+
 **Stage of development:** Phase 4 <br>
 **Team:** Tarek Loubani, Mohammed Al-Attar
 

@@ -5,6 +5,12 @@
     "previous": "Previous",
     "tagline": "High-quality low-cost open-source medical devices",
     "docs": {
+      "collaboration/collab-request": {
+        "title": "Collaboration Request Form"
+      },
+      "collaboration/introduction": {
+        "title": "How can we collaborate?"
+      },
       "device-projects/bipap": {
         "title": "Aerosol-Reducing Mask (BiPAP)"
       },
@@ -50,73 +56,77 @@
       "manufacturing/introduction": {
         "title": "Introduction"
       },
+      "op-projects/marketing-branding": {
+        "title": "Marketing & Branding"
+      },
+      "op-projects/onboarding-doc": {
+        "title": "Onboarding & Docusaurus"
+      },
+      "op-projects/project-management": {
+        "title": "Mini-Project Management"
+      },
       "printer-workshops/bread": {
         "title": "Making bread"
       },
       "printer-workshops/introduction": {
         "title": "Introduction"
       },
-      "pulse-ox/checking-quality": {
-        "title": "Checking Quality"
-      },
-      "pulse-ox/clinical-trial/abg-analysis": {
+      "pulseox-clinical-trial/abg-analysis": {
         "title": "ABG analysis"
       },
-      "pulse-ox/clinical-trial/abg-draw": {
+      "pulseox-clinical-trial/abg-draw": {
         "title": "ABG Draw"
       },
-      "pulse-ox/clinical-trial/data-analysis": {
+      "pulseox-clinical-trial/data-analysis": {
         "title": "Data Analysis"
       },
-      "pulse-ox/clinical-trial/data-collection": {
+      "pulseox-clinical-trial/data-collection": {
         "title": "Data Collection"
       },
-      "pulse-ox/clinical-trial/participant-prep": {
+      "pulseox-clinical-trial/participant-prep": {
         "title": "Participant Preparation"
       },
-      "pulse-ox/clinical-trial/recording": {
+      "pulseox-clinical-trial/recording": {
         "title": "Recording"
       },
-      "pulse-ox/clinical-trial/respiract-operation": {
+      "pulseox-clinical-trial/respiract-operation": {
         "title": "Respiract Operation"
       },
-      "pulse-ox/clinical-trial/supervisor": {
+      "pulseox-clinical-trial/supervisor": {
         "title": "Supervisor"
       },
-      "pulse-ox/getting-the-models": {
-        "title": "Getting the models"
+      "team-tools/fusion-directory": {
+        "title": "Fusion Directory"
       },
-      "pulse-ox/introduction": {
-        "title": "Introduction"
+      "team-tools/github": {
+        "title": "GitHub"
       },
-      "pulse-ox/manufacturing": {
-        "title": "Manufacturing"
+      "team-tools/jitsi": {
+        "title": "Jitsi"
       },
-      "pulse-ox/print-settings": {
-        "title": "Print Settings"
+      "team-tools/kanboard": {
+        "title": "Kanboard"
       },
-      "tourniquet/checking-quality": {
-        "title": "Checking Quality"
+      "team-tools/mattermost": {
+        "title": "Mattermost"
       },
-      "tourniquet/getting-the-models": {
-        "title": "Getting the models"
+      "team-tools/nextcloud": {
+        "title": "Nextcloud"
       },
-      "tourniquet/introduction": {
-        "title": "Introduction"
+      "team-tools/whatsapp": {
+        "title": "WhatsApp"
       },
-      "tourniquet/manufacturing": {
-        "title": "Manufacturing"
-      },
-      "tourniquet/print-settings": {
-        "title": "Print Settings"
+      "team-tools/zotero": {
+        "title": "Zotero"
       }
     },
     "links": {},
     "categories": {
-      "Getting started": "Getting started",
-      "Device projects": "Device projects",
-      "Tourniquet": "Tourniquet",
-      "Pulse Oximeter": "Pulse Oximeter",
+      "Getting Started": "Getting Started",
+      "Device Projects": "Device Projects",
+      "Operational Projects": "Operational Projects",
+      "Team Tools": "Team Tools",
+      "Collaboration": "Collaboration",
       "Manufacturing": "Manufacturing",
       "Printer Workshops": "Printer Workshops"
     }

@@ -3,6 +3,8 @@ id: otoscope
 title: Otoscope
 ---
 
+![otoscope](assets/media/otoscope.jpg)
+
 **Stage of Development:** Phase 3 <br>
 **Team:** Frankie Talarico
 

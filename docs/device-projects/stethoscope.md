@@ -3,6 +3,8 @@ id: stethoscope
 title: Stethoscope
 ---
 
+![stethoscope](assets/media/stethoscope.jpg)
+
 **Stage of development:** Phase 4 <br>
 **Team:** Tarek Loubani, Alex Pavlosky, Steve Plimmer
 
