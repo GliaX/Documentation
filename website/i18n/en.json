@@ -8,9 +8,6 @@
       "getting-started/get-a-model": {
         "title": "Get a model to print"
       },
-      "getting-started/introduction": {
-        "title": "Introduction"
-      },
       "getting-started/remove-your-print": {
         "title": "Remove your print"
       },
@@ -25,6 +22,9 @@
       },
       "getting-started/troubleshoot-failures": {
         "title": "Troubleshoot failures"
+      },
+      "getting-started/welcome": {
+        "title": "Welcome to Glia!"
       },
       "manufacturing/change-filament-spools": {
         "title": "Change Filament Spools"
