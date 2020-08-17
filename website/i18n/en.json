@@ -5,14 +5,38 @@
     "previous": "Previous",
     "tagline": "High-quality low-cost open-source medical devices",
     "docs": {
+      "device-projects/bipap": {
+        "title": "Aerosol-Reducing Mask (BiPAP)"
+      },
+      "device-projects/dialysis": {
+        "title": "Dialysis"
+      },
+      "device-projects/ecg": {
+        "title": "Electrocardiogram"
+      },
+      "device-projects/face-shield": {
+        "title": "Face Shield"
+      },
+      "device-projects/otoscope": {
+        "title": "Otoscope"
+      },
+      "device-projects/pulseox": {
+        "title": "Pulse Oximeter"
+      },
+      "device-projects/stethoscope": {
+        "title": "Stethoscope"
+      },
+      "device-projects/tourniquet": {
+        "title": "Tourniquet"
+      },
+      "getting-started/introduction": {
+        "title": "Welcome to Glia!"
+      },
       "getting-started/open-source": {
         "title": "What is Free/Libre and Open Source medicine?"
       },
       "getting-started/project-phases": {
         "title": "What does a Glia project look like?"
-      },
-      "getting-started/welcome": {
-        "title": "Welcome to Glia!"
       },
       "getting-started/who-are-we": {
         "title": "Who are We?"
@@ -71,21 +95,6 @@
       "pulse-ox/print-settings": {
         "title": "Print Settings"
       },
-      "stethoscope/checking-quality": {
-        "title": "Checking Quality"
-      },
-      "stethoscope/getting-the-models": {
-        "title": "Getting the models"
-      },
-      "stethoscope/introduction": {
-        "title": "Introduction"
-      },
-      "stethoscope/manufacturing": {
-        "title": "Manufacturing"
-      },
-      "stethoscope/print-settings": {
-        "title": "Print Settings"
-      },
       "tourniquet/checking-quality": {
         "title": "Checking Quality"
       },
@@ -105,7 +114,7 @@
     "links": {},
     "categories": {
       "Getting started": "Getting started",
-      "Stethoscope": "Stethoscope",
+      "Device projects": "Device projects",
       "Tourniquet": "Tourniquet",
       "Pulse Oximeter": "Pulse Oximeter",
       "Manufacturing": "Manufacturing",

@@ -6,12 +6,15 @@
     	"getting-started/open-source", 
     	"getting-started/project-phases"
     ],
-    "Stethoscope": [
-    	"stethoscope/introduction",
-    	"stethoscope/getting-the-models",
-    	"stethoscope/print-settings",
-    	"stethoscope/manufacturing",
-    	"stethoscope/checking-quality"
+    "Device projects": [
+    	"device-projects/stethoscope",
+    	"device-projects/tourniquet",
+    	"device-projects/otoscope",
+    	"device-projects/pulseox",
+    	"device-projects/ecg",
+    	"device-projects/face-shield",
+    	"device-projects/bipap",
+    	"device-projects/dialysis"
     ],
     "Tourniquet": [
     	"tourniquet/introduction",
