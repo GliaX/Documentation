@@ -11,7 +11,7 @@ title: Tourniquet
 A tourniquet is a compression device used to control bleeding from an injured and bleeding arm or leg, reducing the chance of death or amputation of the limb. Using an open-source development model, the tourniquet has been carefully designed to perform as well as its premium brand counterpart, the Combat Application Tourniquet (CAT). The tourniquet utilizes 3D printed parts professionally tailored together with velcro (hook and loop) and nylon straps. While CATs cost upwards of $50 USD per unit to deploy in places like Gaza, this tourniquet can be constructed for $7 USD per unit.
 
 The tourniquet is being deployed in Gaza, where specialists in emergency and crisis management train medical staff on its use. Our team also distributed tourniquets to trainees in specialized centers for use in emergency rooms. More than 1000 tourniquets have been deployed and are treating critically wounded patients today.
-The tourniquet is proof that a sustainable system to build, validate and deploy much needed medical devices can thrive in a place where there is limited access to medical supplies, such as Gaza.
+The tourniquet is proof that a sustainable system to build, validate and deploy much needed medical devices can thrive in a place where there is limited access to medical supplies.
 
 For more information, stay tuned on our Tourniquet MM!
 

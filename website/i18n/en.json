@@ -35,6 +35,9 @@
       "device-projects/tourniquet": {
         "title": "Tourniquet"
       },
+      "faq/faq": {
+        "title": "FAQ"
+      },
       "getting-started/introduction": {
         "title": "Welcome to Glia!"
       },
@@ -42,7 +45,7 @@
         "title": "What is Free/Libre and Open Source medicine?"
       },
       "getting-started/project-phases": {
-        "title": "What does a Glia project look like?"
+        "title": "Project Phases"
       },
       "getting-started/who-are-we": {
         "title": "Who are We?"
@@ -128,7 +131,7 @@
       "Team Tools": "Team Tools",
       "Collaboration": "Collaboration",
       "Manufacturing": "Manufacturing",
-      "Printer Workshops": "Printer Workshops"
+      "FAQ": "FAQ"
     }
   },
   "pages-strings": {

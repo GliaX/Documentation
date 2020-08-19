@@ -3,6 +3,8 @@ id: pulseox
 title: Pulse Oximeter
 ---
 
+![pulseox](assets/media/pulseox.jpg)
+
 **Stage of Development:** Phase 3 <br>
 **Team:** Tarek Loubani, Chelsea Darling, Carrie Wakem, Melanie Columbus, Tanya, Justin, Reidun Garapick, Vicky Vo
 

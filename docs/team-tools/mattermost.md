@@ -3,7 +3,7 @@ id: mattermost
 title: Mattermost
 ---
 
-**Mattermost** is our team’s main communication software where most of our formal communication takes place. 
+[**Mattermost**](https://group.emlondon.ca/glia/) is our team’s main communication software where most of our formal communication takes place. 
 
 #### Getting Started with Mattermost:
 1. Go to the Mattermost Sign in page.

@@ -39,12 +39,9 @@
     	"manufacturing/introduction",
     	"manufacturing/guide-to-octoprint", 
 	"manufacturing/change-filament-spools"
-	],
-    "Printer Workshops": [
-	"printer-workshops/introduction",
-	"printer-workshops/bread",
-	"printer-workshops/raspberry-cheesecake",
-	"printer-workshops/nutella-cheesecake"
-	]
+    ],
+    "FAQ": [
+    	"faq/faq"
+    ]
   }
 }
