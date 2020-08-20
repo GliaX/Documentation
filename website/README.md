@@ -1,4 +1,5 @@
-This website was created with [Docusaurus](https://docusaurus.io/).
+This website was created with [Docusaurus](https://docusaurus.io/).<br>
+For help on using Github see [here](https://guides.github.com/activities/hello-world/); specifically, look at making commits and pull requests.
 
 # What's In This Document
 
@@ -22,21 +23,23 @@ $ yarn
 # Start the site
 $ yarn start
 ```
+*Downloading Node/Yarn for Docusaurus installation is only necessary when making big changes to the docusaurus website (e.g. creating categories). 
+Editing content can be done through GitHub.*
+
 
 ## Directory Structure
 
-Your project file structure should look something like this
+The project file structure should look something like this
 
 ```
-my-docusaurus/
+Documentation/
   docs/
-    doc-1.md
-    doc-2.md
-    doc-3.md
+    assets/       (<-- where pictures are stored)
+    category/     (<-- tabs)
+       doc-1.md   (<-- pages)
+       doc-2.md
+       doc-3.md
   website/
-    blog/
-      2016-3-11-oldest-post.md
-      2017-10-24-newest-post.md
     core/
     node_modules/
     pages/
@@ -47,6 +50,8 @@ my-docusaurus/
     sidebar.json
     siteConfig.js
 ```
+*When editing content for the docusaurus using Github, only the 'docs/ files', and 'website/ sidebar.json' and 'siteConfig.js' are used.*
+
 
 # Editing Content
 
@@ -54,16 +59,19 @@ my-docusaurus/
 
 Edit docs by navigating to `docs/` and editing the corresponding document:
 
-`docs/doc-to-be-edited.md`
+`docs/category/doc-to-be-edited.md`
 
 ```markdown
 ---
-id: page-needs-edit
-title: This Doc Needs To Be Edited
+id: page-needs-edit     (<-- the id will be how this page gets referred to in other files)
+title: This Doc Needs To Be Edited    (<-- the title appears in the sidebar and as the title of each page)
 ---
 
-Edit me...
+Content of the page appears below the header. For easy formatting, these files use markdown.
 ```
+
+For help on using markdown, see the [Guide to Markdown](https://guides.github.com/features/mastering-markdown/)
+You can use the *preview changes* tab when editing pages to see your changes before committing them. 
 
 For more information about docs, click [here](https://docusaurus.io/docs/en/navigation)
 
@@ -87,7 +95,7 @@ For more information about blog posts, click [here](https://docusaurus.io/docs/e
 
 ## Adding a new docs page to an existing sidebar
 
-1. Create the doc as a new markdown file in `/docs`, example `docs/newly-created-doc.md`:
+1. Create the doc as a new markdown file in `/docs/category`, example `docs/category/newly-created-doc.md`:
 
 ```md
 ---
@@ -105,16 +113,31 @@ My new content here..
 {
   "docs": {
     "Getting Started": [
-      "quick-start",
-      "newly-created-doc" // new doc here
+      "category/quick-start",
+      "category/newly-created-doc" // new doc here
     ],
     ...
   },
   ...
 }
 ```
-
+By adding your .md (markdown) file to the sidebar you are allowing users to find the page; otherwise, the page will have been created but there isn't a way to access it. 
 For more information about adding new docs, click [here](https://docusaurus.io/docs/en/navigation)
+
+## Adding Pictures
+
+1. Upload the picture to the docs/assets/media folder. 
+
+1. Add the picture to a page by adding '![alt title](assets/media/pic-name.jpg)'
+```md
+---
+id: existing-doc
+title: This Doc Needs a Pic
+---
+
+![alt title](assets/media/pic-name.jpg)
+Content with picture above
+```
 
 ## Adding a new blog post
 
@@ -190,4 +213,4 @@ For more information about custom pages, click [here](https://docusaurus.io/docs
 
 # Full Documentation
 
-Full documentation can be found on the [website](https://docusaurus.io/).
+Full documentation can be found on the [docusaurus website](https://docusaurus.io/).
