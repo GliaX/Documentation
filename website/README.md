@@ -50,8 +50,7 @@ Documentation/
     sidebar.json
     siteConfig.js
 ```
-*When editing content for the docusaurus using Github, only the 'docs/ files', and 'website/ sidebar.json' and 'siteConfig.js' are used.*
-
+*When editing content for the docusaurus using Github, only the `docs/ files`, and website/ `sidebar.json` and `siteConfig.js` are used.* <br><br>
 
 # Editing Content
 
@@ -70,8 +69,8 @@ title: This Doc Needs To Be Edited    (<-- the title appears in the sidebar and 
 Content of the page appears below the header. For easy formatting, these files use markdown.
 ```
 
-For help on using markdown, see the [Guide to Markdown](https://guides.github.com/features/mastering-markdown/)
-You can use the *preview changes* tab when editing pages to see your changes before committing them. 
+For help on using markdown, see the [Guide to Markdown](https://guides.github.com/features/mastering-markdown/). <br>
+You can use the _preview changes_ tab when editing pages to see your changes before committing them. 
 
 For more information about docs, click [here](https://docusaurus.io/docs/en/navigation)
 
@@ -89,7 +88,7 @@ title: This Blog Post Needs To Be Edited
 Edit me...
 ```
 
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
+For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)<br><br>
 
 # Adding Content
 
@@ -114,21 +113,21 @@ My new content here..
   "docs": {
     "Getting Started": [
       "category/quick-start",
-      "category/newly-created-doc" // new doc here
+      "category/newly-created-doc"   // new doc here
     ],
     ...
   },
   ...
 }
 ```
-By adding your .md (markdown) file to the sidebar you are allowing users to find the page; otherwise, the page will have been created but there isn't a way to access it. 
+By adding your .md (markdown) file to the sidebar you are allowing users to find the page; otherwise, the page will have been created but there isn't a way to access it. <br>
 For more information about adding new docs, click [here](https://docusaurus.io/docs/en/navigation)
 
 ## Adding Pictures
 
 1. Upload the picture to the docs/assets/media folder. 
 
-1. Add the picture to a page by adding '![alt title](assets/media/pic-name.jpg)'
+1. Add the picture to a page by adding `![alt title](assets/media/pic-name.jpg)`
 ```md
 ---
 id: existing-doc
