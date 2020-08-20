@@ -1,53 +1,47 @@
 {
   "docs": {
-    "Getting started": [
+    "Getting Started": [
     	"getting-started/introduction", 
-    	"getting-started/set-up-software", 
-    	"getting-started/get-a-model", 
-    	"getting-started/slice-your-first-print",
-    	"getting-started/start-your-print",
-    	"getting-started/remove-your-print",
-    	"getting-started/troubleshoot-failures"
+    	"getting-started/who-are-we", 
+    	"getting-started/open-source", 
+    	"getting-started/project-phases"
     ],
-    "Stethoscope": [
-    	"stethoscope/introduction",
-    	"stethoscope/getting-the-models",
-    	"stethoscope/print-settings",
-    	"stethoscope/manufacturing",
-    	"stethoscope/checking-quality"
+    "Device Projects": [
+    	"device-projects/stethoscope",
+    	"device-projects/tourniquet",
+    	"device-projects/otoscope",
+    	"device-projects/pulseox",
+    	"device-projects/ecg",
+    	"device-projects/face-shield",
+    	"device-projects/bipap",
+    	"device-projects/dialysis"
     ],
-    "Tourniquet": [
-    	"tourniquet/introduction",
-    	"tourniquet/getting-the-models",
-    	"tourniquet/print-settings",
-    	"tourniquet/manufacturing",
-    	"tourniquet/checking-quality"
-    	],
-    "Pulse Oximeter": [
-    	"pulse-ox/introduction",
-    	"pulse-ox/getting-the-models",
-    	"pulse-ox/print-settings",
-    	"pulse-ox/manufacturing",
-    	"pulse-ox/checking-quality",
-    	"pulse-ox/clinical-trial/participant-prep",
-    	"pulse-ox/clinical-trial/recording",
-    	"pulse-ox/clinical-trial/abg-draw",
-    	"pulse-ox/clinical-trial/abg-analysis",
-    	"pulse-ox/clinical-trial/respiract-operation",
-    	"pulse-ox/clinical-trial/supervisor",
-    	"pulse-ox/clinical-trial/data-collection",
-    	"pulse-ox/clinical-trial/data-analysis"
-   	],
+    "Operational Projects": [
+    	"op-projects/onboarding-doc",
+    	"op-projects/marketing-branding",
+    	"op-projects/project-management"
+    ],
+    "Team Tools": [
+    	"team-tools/mattermost",
+    	"team-tools/kanboard",
+    	"team-tools/nextcloud",
+    	"team-tools/whatsapp",
+    	"team-tools/jitsi",
+    	"team-tools/github",
+    	"team-tools/zotero",
+    	"team-tools/fusion-directory"
+    ],
+    "Collaboration": [
+    	"collaboration/introduction",
+    	"collaboration/collab-request"
+    ],
     "Manufacturing": [
     	"manufacturing/introduction",
-    	"manufacturing/guide-to-octoprint",
-    	"manufacturing/change-filament-spools"
-	],
-	"Printer Workshops": [
-		"printer-workshops/introduction",
-		"printer-workshops/bread",
-		"printer-workshops/raspberry-cheesecake",
-		"printer-workshops/nutella-cheesecake"
-	]
+    	"manufacturing/guide-to-octoprint", 
+	"manufacturing/change-filament-spools"
+    ],
+    "FAQ": [
+    	"faq/faq"
+    ]
   }
 }

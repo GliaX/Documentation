@@ -5,26 +5,50 @@
     "previous": "Previous",
     "tagline": "High-quality low-cost open-source medical devices",
     "docs": {
-      "getting-started/get-a-model": {
-        "title": "Get a model to print"
+      "collaboration/collab-request": {
+        "title": "Collaboration Request Form"
+      },
+      "collaboration/introduction": {
+        "title": "How can we collaborate?"
+      },
+      "device-projects/bipap": {
+        "title": "Aerosol-Reducing Mask (BiPAP)"
+      },
+      "device-projects/dialysis": {
+        "title": "Dialysis"
+      },
+      "device-projects/ecg": {
+        "title": "Electrocardiogram"
+      },
+      "device-projects/face-shield": {
+        "title": "Face Shield"
+      },
+      "device-projects/otoscope": {
+        "title": "Otoscope"
+      },
+      "device-projects/pulseox": {
+        "title": "Pulse Oximeter"
+      },
+      "device-projects/stethoscope": {
+        "title": "Stethoscope"
+      },
+      "device-projects/tourniquet": {
+        "title": "Tourniquet"
+      },
+      "faq/faq": {
+        "title": "FAQ"
       },
       "getting-started/introduction": {
-        "title": "Introduction"
+        "title": "Welcome to Glia!"
       },
-      "getting-started/remove-your-print": {
-        "title": "Remove your print"
+      "getting-started/open-source": {
+        "title": "What is Free/Libre and Open Source medicine?"
       },
-      "getting-started/set-up-software": {
-        "title": "Set up your software"
+      "getting-started/project-phases": {
+        "title": "Project Phases"
       },
-      "getting-started/slice-your-first-print": {
-        "title": "Slice your first print"
-      },
-      "getting-started/start-your-print": {
-        "title": "Start your print"
-      },
-      "getting-started/troubleshoot-failures": {
-        "title": "Troubleshoot failures"
+      "getting-started/who-are-we": {
+        "title": "Who are We?"
       },
       "manufacturing/change-filament-spools": {
         "title": "Change Filament Spools"
@@ -35,90 +59,79 @@
       "manufacturing/introduction": {
         "title": "Introduction"
       },
+      "op-projects/marketing-branding": {
+        "title": "Marketing & Branding"
+      },
+      "op-projects/onboarding-doc": {
+        "title": "Onboarding & Docusaurus"
+      },
+      "op-projects/project-management": {
+        "title": "Mini-Project Management"
+      },
       "printer-workshops/bread": {
         "title": "Making bread"
       },
       "printer-workshops/introduction": {
         "title": "Introduction"
       },
-      "pulse-ox/checking-quality": {
-        "title": "Checking Quality"
-      },
-      "pulse-ox/clinical-trial/abg-analysis": {
+      "pulseox-clinical-trial/abg-analysis": {
         "title": "ABG analysis"
       },
-      "pulse-ox/clinical-trial/abg-draw": {
+      "pulseox-clinical-trial/abg-draw": {
         "title": "ABG Draw"
       },
-      "pulse-ox/clinical-trial/data-analysis": {
+      "pulseox-clinical-trial/data-analysis": {
         "title": "Data Analysis"
       },
-      "pulse-ox/clinical-trial/data-collection": {
+      "pulseox-clinical-trial/data-collection": {
         "title": "Data Collection"
       },
-      "pulse-ox/clinical-trial/participant-prep": {
+      "pulseox-clinical-trial/participant-prep": {
         "title": "Participant Preparation"
       },
-      "pulse-ox/clinical-trial/recording": {
+      "pulseox-clinical-trial/recording": {
         "title": "Recording"
       },
-      "pulse-ox/clinical-trial/respiract-operation": {
+      "pulseox-clinical-trial/respiract-operation": {
         "title": "Respiract Operation"
       },
-      "pulse-ox/clinical-trial/supervisor": {
+      "pulseox-clinical-trial/supervisor": {
         "title": "Supervisor"
       },
-      "pulse-ox/getting-the-models": {
-        "title": "Getting the models"
+      "team-tools/fusion-directory": {
+        "title": "Fusion Directory"
       },
-      "pulse-ox/introduction": {
-        "title": "Introduction"
+      "team-tools/github": {
+        "title": "GitHub"
       },
-      "pulse-ox/manufacturing": {
-        "title": "Manufacturing"
+      "team-tools/jitsi": {
+        "title": "Jitsi"
       },
-      "pulse-ox/print-settings": {
-        "title": "Print Settings"
+      "team-tools/kanboard": {
+        "title": "Kanboard"
       },
-      "stethoscope/checking-quality": {
-        "title": "Checking Quality"
+      "team-tools/mattermost": {
+        "title": "Mattermost"
       },
-      "stethoscope/getting-the-models": {
-        "title": "Getting the models"
+      "team-tools/nextcloud": {
+        "title": "Nextcloud"
       },
-      "stethoscope/introduction": {
-        "title": "Introduction"
+      "team-tools/whatsapp": {
+        "title": "WhatsApp"
       },
-      "stethoscope/manufacturing": {
-        "title": "Manufacturing"
-      },
-      "stethoscope/print-settings": {
-        "title": "Print Settings"
-      },
-      "tourniquet/checking-quality": {
-        "title": "Checking Quality"
-      },
-      "tourniquet/getting-the-models": {
-        "title": "Getting the models"
-      },
-      "tourniquet/introduction": {
-        "title": "Introduction"
-      },
-      "tourniquet/manufacturing": {
-        "title": "Manufacturing"
-      },
-      "tourniquet/print-settings": {
-        "title": "Print Settings"
+      "team-tools/zotero": {
+        "title": "Zotero"
       }
     },
     "links": {},
     "categories": {
-      "Getting started": "Getting started",
-      "Stethoscope": "Stethoscope",
-      "Tourniquet": "Tourniquet",
-      "Pulse Oximeter": "Pulse Oximeter",
+      "Getting Started": "Getting Started",
+      "Device Projects": "Device Projects",
+      "Operational Projects": "Operational Projects",
+      "Team Tools": "Team Tools",
+      "Collaboration": "Collaboration",
       "Manufacturing": "Manufacturing",
-      "Printer Workshops": "Printer Workshops"
+      "FAQ": "FAQ"
     }
   },
   "pages-strings": {
