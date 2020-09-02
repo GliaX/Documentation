@@ -8,5 +8,6 @@ title: Kanboard
 Undertaking available tasks or reaching out to others to help them with their tasks is a great way to get started at Glia!
 
 
-New to Kanboard? Check out [Glia’s Kanboard Tutorial](https://docs.google.com/presentation/d/1M8VUR1EWqhw2wtQG9fzq8AivZXtYZaHZvZNNfQ0hB7M/edit#slide=id.g7df7d91c61_2_74).
+New to Kanboard? Check out [Glia’s Kanboard Tutorial Video](https://cloud.emlondon.ca/f/1435306) or 
+[Glia's Kanboard Slideshow](https://docs.google.com/presentation/d/1M8VUR1EWqhw2wtQG9fzq8AivZXtYZaHZvZNNfQ0hB7M/edit#slide=id.g7df7d91c61_2_74).
 
