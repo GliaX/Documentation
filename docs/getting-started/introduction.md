@@ -3,7 +3,7 @@ id: introduction
 title: Welcome to Glia!
 ---
 
-You are now a part of an international team that is actively designing, testing, and manufacturing medical hardware. Our medical hardware is open-source and shared freely online. Glia collaborates with APIL Toronto, Mosaic Medical London and Tashkeel Gaza. 
+You are now a part of an international team that is actively designing, testing, and manufacturing medical hardware. Our medical hardware is open-source and shared freely online. Glia collaborates with Advanced Perioperative Imaging Lab (APIL) at Toronto General Hospital and Mosaic Medical in London, Ontario. 
 
 We believe in creating and sharing hardware that is easily accessible and can be manufactured in low-resource settings. Hundreds of our devices are already in use around the world. 
 
