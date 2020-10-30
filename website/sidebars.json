@@ -4,7 +4,8 @@
     	"getting-started/introduction", 
     	"getting-started/who-are-we", 
     	"getting-started/open-source", 
-    	"getting-started/project-phases"
+    	"getting-started/project-phases",
+	"getting-started/tutorial"
     ],
     "Device Projects": [
     	"device-projects/stethoscope",
