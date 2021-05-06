@@ -3,9 +3,10 @@ id: bipap
 title: Aerosol-Reducing Mask (BiPAP) 
 ---
 
-**Stage of Development:** Phase 4 <br>
-**Main Team:** Tarek Loubani, Ben Thomson, Azad Mashari, Dorotea Gucciardo, Chelsea Darling, Reidun Garapick <br>
-**Sioux Lookout Team:** Cory McFarlane, Umair Amer, Josiah Butt
+**Repository:** https://github.com/GliaX/Aerosol-Reducing-Mask<br>
+**Stage of Development:** Phase 4 Version 1. Version 1 Withdrawn; Phase 1 Version 2.<br>
+**Glia/APIL Team:** Ben Thomson, Tarek Loubani, Azad Mashari, Dorotea Gucciardo, Chelsea Darling, Reidun Garapick, Vahid Anwari, Joshua Qua Hiansen, Tina Yan<br>
+**Sioux Lookout Team:** Cory McFarlane, Umair Khawaja, Josiah Butt
 
 
 The **Aerosol-Reducing Mask (ARM)** was designed in response to the challenge of safely administering high-flow oxygen and Non-Invasive Positive Pressure Ventilation (e.g. BiPAP, CPAP) during the COVID-19 pandemic. In comparison to NIPPV, the ARM successfully and dramatically decreases air leak and dispersion of potentially virulent aerosolized particles. <br>
@@ -19,7 +20,7 @@ It is useful for patients who have, or are suspected of having, an infection tha
 There is currently a clinical trial underway in London, Ontario (LHSC). A satellite trial will be starting shortly in Sioux Lookout (SLMHC).
 
 
-Currently, the ARM has Health Canada Class II Authorization (#314674) for clinical use, issued May 11 (2020). The ARM is also in the last stages of achieving FDA approval for broader use in remote and indigenous communities in the United States. 
+Currently, the ARM has Health Canada Class II Authorization (#314674) for clinical use, issued May 11 (2020). The device (Version 1 was withdrawn in November 2020 after clinical trials and bench testing showed the device to be ineffective in reducing aerosolization and may lead to significant levels of carbon dioxide rebreathing if used in unsupervised or minimally supervised settings.
 
 
 For more information, stay tuned on our BiPAP MM!
