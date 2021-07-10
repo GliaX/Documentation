@@ -1,29 +1,26 @@
----
-id: participant-prep
-title: Participant Preparation
----
+## PULSE OXIMETER STUDY MODULES – PARTICIPANT GUIDE
+The participant guide role is responsible for communicating details of the study with participants, ensuring consent, measuring vitals and accompanying the participant throughout the study. The individual should be well-versed in the protocol and participant consent form to answer any potential questions. After the study, the Post-Study Monitoring role is responsible for monitoring the patient for health and safety. The participant guide can be a non-MD volunteer.
 
-Test22
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+## RESPONSIBILITIES
+    • Communication of study details with participant, answer any questions they may have
+    • Ensure proper consent has been signed and collected in participant file
+    • Measure vitals of participant 
+    • Accompany patient throughout flow of experiment (3hrs; pre-study – experiment -- post-study)
+    • Post-study monitoring of participants (30 mins)
 
-## Lorem
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
-
-## Mauris In Code
-
-```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
-```
-
-## Nulla
-
-Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.
-
-## Orci
-
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.
-
-## Phasellus
-
-Phasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis.
+## STEP-BY-STEP HOW TO
+    1. Introduce the Pulse Oximeter Study to the participant 
+        ◦ Explain the purpose and protocol of the study
+        ◦ Confirm that participant has read the participant consent form
+        ◦ Answer any questions the participant may have
+    2. Ensure proper informed consent has been signed
+        ◦ The participant must be capable, and in good understanding of the risks and benefits to their person
+        ◦ Obtain written consent through the participant consent form
+        ◦ Collect the signed participant consent form in the participant’s file
+    3. Measure Vitals
+        ◦ Measure and record heart rate, breathing rate, blood pressure, and temperature of participant
+        ◦ Any abnormal readings should be noted and made aware to the supervisor
+    4. Monitor participants during and after the study for health and safety
+        ◦ Stay with participants for the duration of the study and at least 30 minutes afterwards to ensure their safety
+        ◦ Help apply direct pressure to their wounds
+        ◦ Provide discharge information/instructions 
