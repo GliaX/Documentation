@@ -14,8 +14,7 @@
     	"device-projects/ecg",
     	"device-projects/face-shield",
     	"device-projects/bipap",
-    	"device-projects/dialysis",
-	"device-projects/tut"
+    	"device-projects/dialysis"
     ],
     "Operational Projects": [
     	"op-projects/onboarding-doc",
