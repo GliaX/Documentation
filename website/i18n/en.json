@@ -59,6 +59,9 @@
       "manufacturing/introduction": {
         "title": "Introduction"
       },
+      "manufacturing/tpu-settings": {
+        "title": "TPU Settings for 3D printers"
+      },
       "op-projects/marketing-branding": {
         "title": "Marketing & Branding"
       },

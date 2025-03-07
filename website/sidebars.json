@@ -38,7 +38,8 @@
     "Manufacturing": [
     	"manufacturing/introduction",
     	"manufacturing/guide-to-octoprint", 
-	"manufacturing/change-filament-spools"
+	"manufacturing/change-filament-spools",
+	"manufacturing/tpu-settings"
     ],
     "FAQ": [
     	"faq/faq"
