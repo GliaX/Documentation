@@ -87,10 +87,10 @@
         "title": "Data Collection"
       },
       "pulseox-clinical-trial/participant-prep": {
-        "title": "Participant Preparation"
+        "title": "pulseox-clinical-trial/participant-prep"
       },
       "pulseox-clinical-trial/recording": {
-        "title": "Recording"
+        "title": "pulseox-clinical-trial/recording"
       },
       "pulseox-clinical-trial/respiract-operation": {
         "title": "Respiract Operation"
