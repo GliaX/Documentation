@@ -1,0 +1,27 @@
+**Thank-you emails to donors**
+
+This goes through the process of sending thank-you emails to online donors through our web store (currently Shopify).
+
+1) Click on the customer's email address to draft the email in Shopify.
+
+<img src="../docs/assets/media/shopify_customer_email.png" alt="customer email">
+
+2) Copy and paste email template into the subject and body of the email.
+
+<img src="../docs/assets/media/shopify_paste_email_template.png" alt="email template">
+
+3) Review the email before sending.
+
+<img src="../docs/assets/media/shopify_review_email.png" alt="review email">
+
+4) Send the email.
+
+<img src="../docs/assets/media/shopify_send_email.png" alt="send email">
+
+5) Click the "Fulfill Item" button"
+
+<img src="../docs/assets/media/shopify_fulfill_item.png" alt="fulfill item">
+
+6) Click the "Fulfill Item" button on this page as well. Do not check the box to notify the customer of shipping. No shipping is required for donations.
+
+<img src="../docs/assets/media/shopify_fulfill_item2.png" alt="fulfill item only">
